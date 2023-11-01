@@ -1,0 +1,26 @@
+@use 'colors';
+
+.joycon{
+    width:15rem;
+    height:35rem;
+    position: relative;
+}   
+
+.joycon--left{
+    background:colors.$green;
+    border-top-left-radius:7rem;
+    border-bottom-left-radius:7rem;
+    border:colors.$border-white;
+    animation-name: click--left;
+    animation-duration: 2.5s;
+}
+
+.joycon--right{
+    background:colors.$white;
+    border-top-right-radius:7rem;
+    border-bottom-right-radius:7rem;
+    border:colors.$border-white;
+    animation-name: click--right;
+    animation-duration: 2.5s;
+    
+}
