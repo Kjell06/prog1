@@ -1,0 +1,19 @@
+@use 'mixin';
+@use 'color';
+
+
+.sponsorfooter{
+    width:100%;
+    height:20rem;
+    background:colors.$green;
+    margin-top:55rem;
+    @include mixin.displayflex;
+  }
+  
+  .github{
+    @include mixin.displayflex;
+    font-size:5rem;
+    background:colors.$pink;
+    border-radius:2rem;
+    height:10rem;
+  }

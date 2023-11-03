@@ -5,7 +5,7 @@
     width: 11rem;
     padding: 1rem;
     font-size: 80%;
-    background: colors.$blue;
+    background: colors.$green;
     border: none;
     color: colors.$font-color;
     border-radius: 0.5rem;
@@ -14,7 +14,7 @@
 
 %cta:hover{
     cursor: pointer;
-    background: darken(colors.$blue, 10%);
+    background: darken(colors.$green, 10%);
     transition: 0.2s;
 }
 
@@ -33,7 +33,7 @@
 
 %section{
     height: 80rem;
-    border-bottom: colors.$border-blue-small;
+    border-bottom: colors.$border-green-small;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -42,6 +42,6 @@
     font-size: 250%;
     padding: 1.5rem;
     color: colors.$font-color;
-    border: colors.$border-blue;
+    border: colors.$border-green;
     border-radius: 50%;
 }
